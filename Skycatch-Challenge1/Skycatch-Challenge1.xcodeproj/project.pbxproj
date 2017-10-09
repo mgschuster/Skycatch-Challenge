@@ -78,14 +78,46 @@
 		84091CE21F8BAB250090DBEE /* Skycatch-Challenge1 */ = {
 			isa = PBXGroup;
 			children = (
+				84091CF71F8BAC730090DBEE /* Model */,
+				84091CF61F8BAC6F0090DBEE /* View */,
+				84091CF51F8BAC680090DBEE /* Controller */,
+				84091CF81F8BAC780090DBEE /* Utilities */,
 				84091CE31F8BAB250090DBEE /* AppDelegate.swift */,
-				84091CE51F8BAB250090DBEE /* ViewController.swift */,
 				84091CE71F8BAB250090DBEE /* Main.storyboard */,
 				84091CEA1F8BAB250090DBEE /* Assets.xcassets */,
 				84091CEC1F8BAB250090DBEE /* LaunchScreen.storyboard */,
 				84091CEF1F8BAB250090DBEE /* Info.plist */,
 			);
 			path = "Skycatch-Challenge1";
+			sourceTree = "<group>";
+		};
+		84091CF51F8BAC680090DBEE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				84091CE51F8BAB250090DBEE /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		84091CF61F8BAC6F0090DBEE /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		84091CF71F8BAC730090DBEE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		84091CF81F8BAC780090DBEE /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -353,6 +385,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JE8VMAJF52;
 				INFOPLIST_FILE = "Skycatch-Challenge1/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tjschoost.Skycatch-Challenge1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -369,6 +402,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JE8VMAJF52;
 				INFOPLIST_FILE = "Skycatch-Challenge1/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tjschoost.Skycatch-Challenge1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
