@@ -47,7 +47,7 @@
                                 <rect key="frame" x="0.0" y="75" width="375" height="592"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MovieCell" rowHeight="122" id="Eaw-xA-KAe">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MovieCell" rowHeight="122" id="Eaw-xA-KAe" customClass="MovieCell" customModule="Skycatch_Challenge1" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="122"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Eaw-xA-KAe" id="TO1-qS-Nyx">
@@ -118,6 +118,11 @@
                                                 <constraint firstItem="hdj-o1-DTm" firstAttribute="leading" secondItem="ykZ-pF-Wim" secondAttribute="trailing" constant="10" id="z3S-wK-Jne"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="locationLbl" destination="BIt-HV-FbP" id="UyK-EK-2Fq"/>
+                                            <outlet property="nameLbl" destination="Z76-vO-JE9" id="aCV-SE-eBQ"/>
+                                            <outlet property="releaseDateLbl" destination="hdj-o1-DTm" id="YQL-lj-1Kc"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -134,10 +139,13 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="tableView" destination="8Q0-u8-F1M" id="slG-ty-FRY"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="116" y="118.29085457271366"/>
+            <point key="canvasLocation" x="-10" y="-224"/>
         </scene>
     </scenes>
 </document>

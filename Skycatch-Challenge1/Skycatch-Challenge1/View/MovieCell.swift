@@ -10,15 +10,20 @@ import UIKit
 
 class MovieCell: UITableViewCell {
 
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
-    }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
+    // Outlets
+    @IBOutlet weak var nameLbl: UILabel!
+    @IBOutlet weak var releaseDateLbl: UILabel!
+    @IBOutlet weak var locationLbl: UILabel!
+    
+    // Varibles
+    var movie: Movie!
+    
+    func configureCell(_ movie: Movie) {
+        self.movie = movie
+        
+        nameLbl.text = self.movie.name
+        releaseDateLbl.text = self.movie.releaseDate
+        locationLbl.text = self.movie.location
     }
 
 }
