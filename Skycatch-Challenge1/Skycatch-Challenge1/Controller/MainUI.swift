@@ -38,7 +38,6 @@ class MainVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
                             if let titles = columns[8]["cachedContents"] as? Dictionary<String, AnyObject> {
                                 if let top = titles["top"] {
                                     self.titles = top as! [AnyObject]
-                                    print(top)
                                     self.tableView.reloadData()
                                 }
                             }
