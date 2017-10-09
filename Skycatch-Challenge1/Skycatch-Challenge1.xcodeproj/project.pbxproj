@@ -13,6 +13,9 @@
 		84091CE91F8BAB250090DBEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84091CE71F8BAB250090DBEE /* Main.storyboard */; };
 		84091CEB1F8BAB250090DBEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84091CEA1F8BAB250090DBEE /* Assets.xcassets */; };
 		84091CEE1F8BAB250090DBEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84091CEC1F8BAB250090DBEE /* LaunchScreen.storyboard */; };
+		84091CFA1F8BB3B40090DBEE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84091CF91F8BB3B30090DBEE /* Constants.swift */; };
+		84091CFC1F8BB41C0090DBEE /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84091CFB1F8BB41C0090DBEE /* MovieCell.swift */; };
+		84091CFE1F8BB4780090DBEE /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84091CFD1F8BB4780090DBEE /* Movie.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +28,9 @@
 		84091CEA1F8BAB250090DBEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84091CED1F8BAB250090DBEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84091CEF1F8BAB250090DBEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84091CF91F8BB3B30090DBEE /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		84091CFB1F8BB41C0090DBEE /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		84091CFD1F8BB4780090DBEE /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		CC9A7ADA9D527AEBBDF3C2AA /* Pods-Skycatch-Challenge1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Skycatch-Challenge1.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Skycatch-Challenge1/Pods-Skycatch-Challenge1.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -102,6 +108,7 @@
 		84091CF61F8BAC6F0090DBEE /* View */ = {
 			isa = PBXGroup;
 			children = (
+				84091CFB1F8BB41C0090DBEE /* MovieCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -109,6 +116,7 @@
 		84091CF71F8BAC730090DBEE /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				84091CFD1F8BB4780090DBEE /* Movie.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -116,6 +124,7 @@
 		84091CF81F8BAC780090DBEE /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				84091CF91F8BB3B30090DBEE /* Constants.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -245,6 +254,9 @@
 			files = (
 				84091CE61F8BAB250090DBEE /* ViewController.swift in Sources */,
 				84091CE41F8BAB250090DBEE /* AppDelegate.swift in Sources */,
+				84091CFC1F8BB41C0090DBEE /* MovieCell.swift in Sources */,
+				84091CFA1F8BB3B40090DBEE /* Constants.swift in Sources */,
+				84091CFE1F8BB4780090DBEE /* Movie.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
