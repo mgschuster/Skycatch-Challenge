@@ -70,9 +70,8 @@ class MainVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
             let releaseDate = releaseDates[indexPath.row]["item"]
             let location = locations[indexPath.row]["item"]
             
-            cell.nameLbl.text = title as? String
-            cell.releaseDateLbl.text = releaseDate as? String
-            cell.locationLbl.text = location as? String
+            let mov = Movie(name: (title as? String)!, releaseDate: (releaseDate as? String)!, location: (location as? String)!)
+            cell.configureCell(mov)
             
             return cell
         } else {
