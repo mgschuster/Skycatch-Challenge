@@ -27,8 +27,6 @@ class MainVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         tableView.delegate = self
         
         downloadMovies()
-
-        
     }
     
     func downloadMovies() {
